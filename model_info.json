@@ -1,0 +1,48 @@
+{
+  "Model Name": "GPT-2",
+  "Type": "Generative Pre-trained Transformer 2",
+  "Model Version": "Various (Small, Medium, Large, XL)",
+  "Developer Name": "OpenAI",
+  "License Information": "MIT License",
+
+  "Model Architecture": {
+    "ML Model": "Transformer",
+    "Algorithm": "Self-Attention mechanism",
+    "Model Parameters": {
+      "Architecture": "Transformer Decoder",
+      "Number of Layers": "Varies (Small: 12, Medium: 24, Large: 36, XL: 48)",
+      "Number of Attention Heads": "Varies (Small: 12, Medium: 16, Large: 20, XL: 25)",
+      "Hidden Layer Size": "Varies (Small: 768, Medium: 1024, Large: 1280, XL: 1600)",
+      "Number of Parameters": "Varies (Small: 117M, Medium: 345M, Large: 762M, XL: 1.5B)",
+      "Vocabulary Size": 50257
+    }
+  },
+
+  "Input": "Text",
+  "Input Format": {
+    "Type": "Plain text",
+    "Encoding": "UTF-8",
+    "Example": "Input text..."
+  },
+
+  "Output": "Text",
+  "Output Format": {
+    "Type": "Plain text",
+    "Encoding": "UTF-8",
+    "Description": "Generated text"
+  },
+
+  "Usage Scenarios": [
+    "Text generation",
+    "Text summarization",
+    "Text continuation",
+    "Language modelling"
+  ],
+
+  "Limitations": [
+    "Can generate biased or nonsensical text",
+    "May struggle with factual accuracy",
+    "Sensitive to prompt wording",
+    "Computationally expensive, particularly for larger models"
+  ],
+}
